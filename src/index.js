@@ -73,7 +73,7 @@ var duracaoEmMinutos = 135;
 var horas = Math.floor(duracaoEmMinutos / 60);
 var minutos = duracaoEmMinutos % 60;0
   
-      //seu código
+      //seu código 
 
 
 // Exibindo o resultado no console
