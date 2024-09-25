@@ -10,11 +10,11 @@
 var largura = 5;
 var altura = 4;
 
-// Calculando a área da parede
+//  Calculando a área da parede
+var area = largura * altura;
 
 // Exibindo o resultado no console
-console.log("A área da parede é:");
-
+console.log("A área da parede é:" + area + " metros quadrados " )
 //-------------------------------------------------------------------------------------------------
 
 // Desafio 2
@@ -28,12 +28,13 @@ console.log("A área da parede é:");
 var nome = "João";
 var sobrenome = "Silva";
 
-// Juntando os nomes com a mensagem de boas-vindas
+// juntando os nomes com a mensagem de boas-vindas
   
-       //seu código
+var nomecompleto = nome + " " +sobrenome;
+var mensagem = " Seja muito bem vindo a Campinho digital é uma honra ter você em nossa equipe " +nomecompleto + "!";
 
 // Exibindo a mensagem no console
-console.log();
+console.log(mensagem)
 
 
 //-------------------------------------------------------------------------------------------------
@@ -49,13 +50,13 @@ console.log();
 // Idade do funcionário em anos
 var idadeEmAnos = 30;
 
-// Calculando anos em dias
+var diasvividos = idadeEmAnos * 365
   
       //seu código
 
 
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias");
+console.log("O funcionário viveu aproximadamente" + diasvividos + " dias ");
 
 //-------------------------------------------------------------------------------------------------
 
@@ -69,11 +70,11 @@ console.log("O funcionário viveu aproximadamente... dias");
 
 // Duração total do evento em minutos
 var duracaoEmMinutos = 135;
-
-// Calculando horas e minutos
+var horas = Math.floor(duracaoEmMinutos / 60);
+var minutos = duracaoEmMinutos % 60;0
   
       //seu código
 
 
 // Exibindo o resultado no console
-console.log("O evento durou ...horas e ... minutos.");
+console.log("O evento durou " + horas + " horas e " + minutos + " minutos.");
